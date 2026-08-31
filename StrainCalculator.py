@@ -1,8 +1,8 @@
 import numpy as np
 import numbers, warnings
-from .Pretreatment import preprocessing, pretreat
+from Pretreatment import preprocessing, pretreat
 from skimage import feature
-from .HoughAngle import hough_angle
+from HoughAngle import hough_angle
 from scipy.interpolate import LinearNDInterpolator, RegularGridInterpolator
 import matplotlib.pyplot as plt
 

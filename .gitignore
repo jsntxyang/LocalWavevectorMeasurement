@@ -221,5 +221,9 @@ __marimo__/
 
 
 # Custom additions
-# Test folder
-.tests
+# Test folders and files
+*.tests
+*.tests.py
+*.tests.ipynb
+*.tests.npy
+*.tests.npz
